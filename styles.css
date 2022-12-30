@@ -1,0 +1,138 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  background-color: antiquewhite;
+}
+
+.nav-list {
+  background-color: rgb(118, 87, 48);
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+  border-radius: 20%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+nav  {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none ;
+  width: 300px;
+  padding-top: 5px;
+}
+li a {
+  text-decoration: none;
+  color: blanchedalmond;
+  padding-top: 5px;
+}
+
+.title-container {
+  text-align: center;
+  color: rgb(80, 67, 47);
+  font-size: 30px;
+}
+
+.image-container-title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-container-title img {
+  width: 220px;
+  height: auto;
+  margin: 5px;
+  border-radius: 25px;
+  border: 0.2rem rgb(118, 87, 48) solid;
+}
+
+.about-us {
+  background-color: rgb(134, 104, 67);
+  color: blanchedalmond;
+  padding: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.meetings {
+  color: rgb(80, 67, 47);
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+figure {
+  border: 0.2rem rgb(118, 87, 48) solid;
+  display: flex;
+  flex-flow: column;
+  width: 12rem;
+  margin: 0.3rem;
+  border-radius: 1.2rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container img {
+  width: 12rem;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+figcaption {
+  background-color: rgb(118, 87, 48);
+  color: blanchedalmond;
+  padding: 5px;
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.socials {
+  background-color: rgb(134, 104, 67);
+  color: blanchedalmond;
+  padding: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-container a {
+  color: blanchedalmond;
+  margin: 1.25rem;
+  fill: blanchedalmond;
+}
+
+.socials-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: rgb(80, 67, 47);
+}
+
+@media only screen and (max-width: 1000px) {
+  .image-container-title, .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.image-container-title :focus,
+.image-container-title :hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
